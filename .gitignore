@@ -1,0 +1,140 @@
+# https://www.toptal.com/developers/gitignore/api/xcode,macos,swift,swiftpackagemanager により作成
+# https://www.toptal.com/developers/gitignore?templates=xcode,macos,swift,swiftpackagemanager で編集
+
+＃＃＃ マックOS ＃＃＃
+＃ 全般的
+.DS_ストア
+.AppleDouble
+.LSOverride
+
+# アイコンは 2 つの \r で終了する必要があります
+アイコン
+
+
+# サムネイル
+._*
+
+# ボリュームのルートに表示される可能性のあるファイル
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.ゴミ箱
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# リモート AFP 共有で作成される可能性のあるディレクトリ
+.AppleDB
+.AppleDesktop
+ネットワークゴミ箱フォルダ
+一時的なアイテム
+.apdisk
+
+### macOS パッチ ###
+# iCloudで生成されたファイル
+*.icloud
+
+### スイフト ###
+# Xcode
+#
+# gitignore の貢献者: Global/Xcode.gitignore、Objective-C.gitignore、Swift.gitignore を更新することを忘れないでください
+
+＃＃ ユーザー設定
+xcuserdata/
+
+## Xcode 8 以前との互換性 (Xcode 9 を起動する必要がないことを無視)
+*.xcscm青写真
+*.xccheckout
+
+## Xcode 3 以前との互換性 (Xcode 4 を起動する必要がないことを無視)
+建てる/
+派生データ/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## Obj-C/Swift 固有
+*.hmap
+
+## アプリのパッケージ化
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## 遊び場
+タイムライン.xcタイムライン
+遊び場.xcワークスペース
+
+# Swift パッケージ マネージャー
+# Swift Package Manager の依存関係からソース コードをチェックインしたくない場合は、この行を追加します。
+# パッケージ/
+# Package.pins
+# Package.resolved
+# *.xcodeproj
+# Xcode は、.xcworkspacedata ファイルと xcuserdata を含むこのディレクトリを自動的に生成します
+# したがって、プロジェクトにパッケージ構成ファイルを追加していない限り、必要ありません
+# .swiftpm
+
+。建てる/
+
+# ココアポッド
+# Pods ディレクトリを .gitignore に追加しないことをお勧めします。しかし
+# 自分で判断してください。長所と短所は次の場所に記載されています。
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+# ポッド/
+# Xcodeワークスペースからソースコードをチェックインしたくない場合は、この行を追加してください
+# *.xcworkspace
+
+# カルタゴ
+# Carthage の依存関係からソース コードをチェックインすることを避けたい場合は、この行を追加します。
+# カルタゴ/チェックアウト
+
+カルタゴ/ビルド/
+
+# Accio 依存関係管理
+依存関係/
+.accio/
+
+＃ 追い越し車線
+# スクリーンショットを git リポジトリに保存しないことをお勧めします。
+# 代わりに、fastlane を使用して、必要なときにいつでもスクリーンショットを再生成してください。
+# 推奨セットアップの詳細については、以下をご覧ください。
+# https://docs.fastlane.tools/best-practices/source-control/#source-control
+
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# コードインジェクション
+# 新しいコード インジェクション ツールの後に、生成されたフォルダー /iOSInjectionProject があります
+# https://github.com/johnno1962/injectionforxcode
+
+iOSInjectionProject/
+
+### SwiftPackageManager ###
+パッケージ
+xcuserdata
+*.xcodeproj
+
+
+### Xcode ###
+
+## Xcode 8 以前
+
+### Xcode パッチ ###
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+/*.gcno
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# https://www.toptal.com/developers/gitignore/api/xcode,macos,swift,swiftpackagemanager の終了
